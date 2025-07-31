@@ -1,0 +1,21 @@
+{% extends 'index.html' %}
+
+{% block Header %}
+{% endblock Header %}
+
+{% block Category %}
+{% endblock Category %}
+
+{% block Banner %}
+{% endblock Banner %}
+
+{% block MainContent %}
+{% endblock MainContent %}
+
+{% block Client %}
+{% endblock Client %}
+
+{% block Footer %}
+{% endblock Footer %}
+
+

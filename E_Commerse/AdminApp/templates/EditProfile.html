@@ -1,0 +1,42 @@
+{% extends 'index.html' %}
+
+{% block Header %}
+<div id="top-bar" class="container">
+    <div class="row">
+        <div class="span4">
+            <span style="font-size: 22px;font-weight: bold;">
+                Welcome Admin
+            </span>
+        </div>
+        <div class="span8">
+            <div class="account pull-right">
+                <ul class="user-menu">
+                    <li><a href="{{curl}}ecommerseadmin/home/">Admin Home</a></li>
+                    <li><a href="{{curl}}ecommerseadmin/managecustomer/">Manage Customers</a></li>
+                    <li><a href="{{curl}}ecommerseadmin/addproduct/">Add Products</a></li>
+                    <li><a href="{{curl}}ecommerseadmin/addproductimage/">Add Product Image</a></li>
+                    <li><a href="{{curl}}ecommerseadmin/changepassword/">ChangePassword</a></li>
+                    <li><a href="{{curl}}ecommerseadmin/editprofile/">EditProfile</a></li>
+                    <li><a href="{{curl}}ecommerseadmin/logout/">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock Header %}
+
+{% block Category %}
+<h1>Edit Profile</h1>
+{% endblock Category %}
+
+{% block Banner %}
+{% endblock Banner %}
+
+{% block MainContent %}
+{% endblock MainContent %}
+
+{% block Client %}
+{% endblock Client %}
+
+{% block Footer %}
+{% endblock Footer %}
